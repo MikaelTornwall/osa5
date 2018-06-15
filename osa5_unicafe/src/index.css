@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+table {
+  text-align: left;
+}
+
+td {
+  padding: .2rem .5rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .2), inset 0 -2px 5px rgba(0, 0, 0, .2);;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.rate {
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem;
+  border-radius: 100%;
+  color: white;
+}
+
+.rate:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 1);
+}
+
+.good {
+  background: green;
+}
+
+.ok {
+  background: yellow;
+  color: grey;
+}
+
+.bad {
+  background: red;
+}
+
+.reset {
+  margin-top: 1rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .8);
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+}
+
+.reset:active {
+  box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+}
