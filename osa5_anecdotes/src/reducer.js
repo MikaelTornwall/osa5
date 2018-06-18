@@ -35,10 +35,8 @@ const reducer = (state = initialState, action) => {
     console.log("afterVote: ", afterVote)
     return state.map(anecdote => anecdote.id !== id ? anecdote : afterVote)
     default:
-    state
+    return state
   }
-
-  return state
 }
 
 export default reducer
